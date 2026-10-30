@@ -1,0 +1,4 @@
+[deps]
+Accessors = "7d9f7c33-5ae7-4f3b-8dc6-eff91059b697"
+OpenSSL = "4d8831e6-92b7-49fb-bdf8-b643e874388c"
+WAV = "8149f6b0-98f6-5db9-b78f-408fbbb8ef88"
