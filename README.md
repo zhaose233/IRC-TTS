@@ -2,7 +2,7 @@
 
 Reads out every message received in IRC channels. To use it, you need to
 ```bash
-git clone --recurse-submodules
+git clone --recurse-submodules https://github.com/zhaose233/IRC-TTS.git
 cd IRC-TTS
 
 cd kokoro.cpp
@@ -19,7 +19,7 @@ cd ../models
 ```
 then come back to the project root directory, run
 ```
-julia --project=./ src/main.jl
+julia --threads=2 --project=./ src/main.jl
 ```
 
-You can config it in `config.jl`
+You can config it in `config.jl`.
